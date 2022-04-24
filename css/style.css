@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.barra{
+    background-color: rgb(59, 59, 59);
+    height: 5rem;
+}
+
+.logo{
+    height: 100%;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+
+.seccion-link{
+    font-size: 16px;
+    text-align: left;
+    padding: 27px 0 35px 0;
+    max-height: 100%;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link:hover{
+    color: gray;
+}
+
+.opaco{
+    color: rgb(173, 173, 173);
+}
+
+.medio{
+    position: relative;
+}
+
+.Imagen-principal{
+    width: 100%;
+}
+
+
+.texto-medio1{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    max-width: 50%;
+    text-align: right;
+    font-size: 42px;
+    color: white;
+}
+
+.texto-medio{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    right: 10%;
+    width: 60%;
+    text-align: right;
+    font-size: 22px;
+    color: white;
+}
+
+
+.link-medio1{
+    display: absolute;
+    width: 15%;
+    padding: 0 0 2px 0;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    top: 70%;
+    right: 27%;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.link-medio2{
+    display: absolute;
+    width: 15%;
+    padding: 0 0 2px 0;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
