@@ -18,8 +18,8 @@
 
 .seccion-link{
     font-size: 16px;
-    text-align: left;
-    padding: 27px 0 35px 0;
+    text-align: right;
+    padding: 27px 35px 35px 0;
     max-height: 100%;
 }
 
@@ -43,6 +43,8 @@
 
 .Imagen-principal{
     width: 100%;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
 }
 
 
@@ -82,6 +84,12 @@
     text-decoration: none;
     border-radius: 10px;
 }
+
+.link-medio1:hover{
+    color: rgb(74, 74, 74);
+}
+
+
 .link-medio2{
     display: absolute;
     width: 15%;
@@ -96,3 +104,74 @@
     border-radius: 10px;
 }
 
+.link-medio2:hover{
+    color: gray;
+}
+
+.imagenorador{
+    width: 100%;
+}
+
+
+.boxtitulooradores{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.titulooradores{
+    margin: 0%;
+}
+
+.contenedororadores{
+
+}
+
+.cajamedio{
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    margin: auto;
+}
+
+.js{
+    background-color: rgb(245, 224, 43);
+    font-weight: bold;
+}
+
+.r{
+    background-color: rgb(41, 180, 214);
+    color: white;
+}
+
+.negocios{
+    background-color: gray;
+    color: white;
+}
+
+
+.startups{
+    background-color: rgb(204, 40, 40);
+    color: white;
+}
+
+.nombre{
+    margin-bottom: 25px;
+}
+
+.lenguaje{
+    border-radius: 5px;
+    padding: 1px 7px;
+    margin:30px 0px 0px 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cajatextooradores{
+    margin-left: 20px;
+    text-align: left;
+    padding:0px 20px 0px 0px;
+    font-size: 14px;
+}
+
+.parrafosoradores{
+    line-height: 25px;
+}
