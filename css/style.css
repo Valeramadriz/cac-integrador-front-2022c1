@@ -286,7 +286,7 @@
 .boton{
     display: inline;
     width: 100%;
-    background-color: rgb(111, 189, 72);
+    background-color: rgb(127, 187, 97);
     border: none;
     padding: 10px;
     font-size: 18px;
@@ -294,7 +294,7 @@
 }
 
 .contenedor-footer{
-    background-color: rgb(13, 40, 78);
+    background-color: rgb(34, 74, 98);
     margin: auto;
     text-align: center;
     padding: 30px;
@@ -304,7 +304,7 @@
 .link-footer{
     text-decoration: none;
     color: white;
-    margin: 2%;
+    margin: 3.5%;
 
 }
 
