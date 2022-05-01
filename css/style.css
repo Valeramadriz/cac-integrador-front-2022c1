@@ -21,9 +21,12 @@
 }
 
 .navbar{
+    width: 100%;
     background-color: rgb(59, 59, 59);
     color: white;
     text-decoration: none;
+    position: absolute;
+    z-index: 2;
 }
 
 .barra{
@@ -43,12 +46,14 @@
     text-align: right;
     padding: 0px 0px 0px 0;
     max-height: 100%;
+    margin-right: 20px;
 }
 
 .link{
     color: white;
     text-decoration: none;
     padding: 6px;
+    margin: 0 5px 0 5px;
 }
 
 .link:hover{
@@ -60,7 +65,7 @@
 }
 
 .medio{
-    position: relative;
+    position: absolute;
 }
 
 .Imagen-principal{
@@ -69,6 +74,9 @@
     filter: brightness(50%);
 }
 
+.contenedor-medio{
+    position: relative;
+}
 
 .texto-medio1{
     position: absolute;
@@ -128,6 +136,10 @@
 
 .link-medio2:hover{
     color: gray;
+}
+
+.presentacion{
+    position: relative;
 }
 
 .imagenorador{
@@ -199,7 +211,7 @@
 }
 
 .bsa{
-    margin: 50px 0 0 0;
+    margin: 50px 0 30px 0;
     padding: 0;
     background-color: rgb(42, 42, 42);
 }
@@ -236,11 +248,60 @@
     border-radius: 10px;
 }
 
+.texto-formulario{
+    text-align: center;
+    margin: 20px 0 0px 0;
+    line-height: 10px;
+}
+
+.texto-formulario p{
+    margin: 0%;
+    display: inline-block;
+}
+
+.subrayado{
+    border-bottom: dotted 2px; 
+}
+
 .contenedor-formulario{
-    margin: 100px;
-    align-items: center;
+    margin: 0px auto 30px auto;
+    width: 60%;
+}
+
+.opacity{
+    opacity: 0.6;
+    font-size: 14px;
 }
 
 .textbox-grande{
     height: 100px;
+}
+
+.boton{
+    display: inline;
+    width: 100%;
+    background-color: rgb(111, 189, 72);
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.contenedor-footer{
+    background-color: rgb(13, 40, 78);
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+
+}
+
+.link-footer:hover{
+    color: grey;
 }

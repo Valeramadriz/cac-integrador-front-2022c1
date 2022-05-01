@@ -11,34 +11,38 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container-fluid no-pading">
-            <a class="navbar-brand texto-logo" href="#">
-                <img src="/img/codoacodo.png" alt="Logo-CodoaCodo" width="150" class="d-inline-block align-text-middle">
-                <p class="texto-navbar">Conf Bs As</p>
-            </a>
-            <nav class="col seccion-link">
-                <a class='link align-text-middle' href="/index.html">La Conferencia</a>
-                <a class='link align-text-middle opaco' href="/index.html">Los Oradores</a>
-                <a class='link align-text-middle opaco' href="/index.html">El lugar y la fecha</a>
-                <a class='link align-text-middle opaco' href="/index.html">Conviertete en orador</a>
-                <a class='link align-text-middle text-success' href="/index.html">Comprar tickets</a>
-            </nav>
-        </div>
-    </nav>
-
-    <section class="Medio">
-        <img class='Imagen-principal' src='/img/hawaii.jpg' alt="Imagen-principal">
-        <h1 class="texto-medio1">Conf Bs As</h1>
-        <p class="texto-medio">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad
-            el
-            conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer
-            a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
-            tenemos para ti. Te esperamos!
-        </p>
-        <a class="link-medio1" href="/index.html">Quiero ser orador</a>
-        <a class="link-medio2 bg-success" href="/index.html">Comprar Tickets</a>
-    </section>
+    <div class="presentacion">
+        <nav class="navbar">
+            <div class="container-fluid no-pading">
+                <a class="navbar-brand texto-logo" href="#">
+                    <img src="/img/codoacodo.png" alt="Logo-CodoaCodo" width="150"
+                        class="d-inline-block align-text-middle">
+                    <p class="texto-navbar">Conf Bs As</p>
+                </a>
+                <nav class="col seccion-link">
+                    <a class='link align-text-middle' href="/index.html">La Conferencia</a>
+                    <a class='link align-text-middle opaco' href="/index.html">Los Oradores</a>
+                    <a class='link align-text-middle opaco' href="/index.html">El lugar y la fecha</a>
+                    <a class='link align-text-middle opaco' href="/index.html">Conviertete en orador</a>
+                    <a class='link align-text-middle text-success' href="/index.html">Comprar tickets</a>
+                </nav>
+            </div>
+        </nav>
+        <section class="Medio">
+            <div class="contenedor-medio">
+                <img class='Imagen-principal' src='/img/hawaii.jpg' alt="Imagen-principal">
+                <h1 class="texto-medio1">Conf Bs As</h1>
+                <p class="texto-medio">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
+                    comunidad el
+                    conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer
+                    a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                    tenemos para ti. Te esperamos!
+                </p>
+                <a class="link-medio1" href="/index.html">Quiero ser orador</a>
+                <a class="link-medio2 bg-success" href="/index.html">Comprar Tickets</a>
+            </div>
+        </section>
+    </div>
 
 
     <section class="container-fluid">
@@ -106,26 +110,49 @@
     </section>
 
     <section>
+        <div class="texto-formulario">
+            <p>CONVIÉRTETE EN UN</p>
+            <h1>ORADOR</h1>
+        </div>
+        <div class="texto-formulario">
+            <p>Anótate como orador para dar una c</p>
+            <p class="subrayado"> harla ignite</p>
+            <p>. Cuéntanos de que quieres hablar!</p>
+        </div>
         <div class="contenedor-formulario">
             <form class="row">
-                <div class="col-md-3">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                <div class="col-md-6">
+                    <label class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="inputEmail4">
                 </div>
-                <div class="col-md-3">
-                    <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Apellido" id="inputPassword4">
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress" class="form-label" ></label>
-                    <input type="text" class="form-control textbox-grande" id="inputAddress" placeholder="Sobre qué quieres hablar?">
-                </div>              
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <label for="inputAddress" class="form-label"></label>
+                    <input type="text" class="form-control textbox-grande" id="inputAddress"
+                        placeholder="Sobre qué quieres hablar?">
+                </div>
+                <p class="opacity">Recuerda incluir un titulo para tu charla</p>
+                <div class="col">
+                    <button type="submit" class="boton">Enviar</button>
                 </div>
             </form>
         </div>
     </section>
+
+    <footer>
+        <div class="contenedor-footer">
+            <a href="#" class="link-footer">Preguntas Frecuentes</a>
+            <a href="#" class="link-footer">Contáctanos</a>
+            <a href="#" class="link-footer">Prensa</a>
+            <a href="#" class="link-footer">Conferencias</a>
+            <a href="#" class="link-footer">Términos y condiciones</a>
+            <a href="#" class="link-footer">Privacidad</a>
+            <a href="#" class="link-footer">Estudiantes</a>
+        </div>
+    </footer>
 
 </body>
 
