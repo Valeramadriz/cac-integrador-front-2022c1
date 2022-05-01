@@ -27,6 +27,7 @@
     text-decoration: none;
     position: absolute;
     z-index: 2;
+    padding: 0;
 }
 
 .barra{
@@ -258,6 +259,10 @@
 .texto-formulario p{
     margin: 0%;
     display: inline-block;
+}
+
+.textosup-orador{
+    font-size: 13px;
 }
 
 .subrayado{
