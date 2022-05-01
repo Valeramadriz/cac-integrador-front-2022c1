@@ -11,21 +11,21 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row barra">
-            <div class="col-5 logo">
-                <img class='logo' src="/img/codoacodo.png" alt="CodoaCodo png">
-                <p class="logo">Conf Bs As</p>
-            </div>
+    <nav class="navbar">
+        <div class="container-fluid no-pading">
+            <a class="navbar-brand texto-logo" href="#">
+                <img src="/img/codoacodo.png" alt="Logo-CodoaCodo" width="150" class="d-inline-block align-text-middle">
+                <p class="texto-navbar">Conf Bs As</p>
+            </a>
             <nav class="col seccion-link">
-                <a class='link' href="/index.html">La Conferencia</a>
-                <a class='link opaco' href="/index.html">Los Oradores</a>
-                <a class='link opaco' href="/index.html">El lugar y la fecha</a>
-                <a class='link opaco' href="/index.html">Conviertete en orador</a>
-                <a class='link text-success' href="/index.html">Comprar tickets</a>
+                <a class='link align-text-middle' href="/index.html">La Conferencia</a>
+                <a class='link align-text-middle opaco' href="/index.html">Los Oradores</a>
+                <a class='link align-text-middle opaco' href="/index.html">El lugar y la fecha</a>
+                <a class='link align-text-middle opaco' href="/index.html">Conviertete en orador</a>
+                <a class='link align-text-middle text-success' href="/index.html">Comprar tickets</a>
             </nav>
         </div>
-    </header>
+    </nav>
 
     <section class="Medio">
         <img class='Imagen-principal' src='/img/hawaii.jpg' alt="Imagen-principal">
@@ -41,7 +41,6 @@
     </section>
 
 
-
     <section class="container-fluid">
         <div class="boxtitulooradores">
             <p class="titulooradores">CONOCE LOS ORADORES</p>
@@ -54,7 +53,8 @@
                     <p class="js lenguaje">JavaScript</p>
                     <p class="r lenguaje">React</p>
                     <h4 class="nombre">Steve Jobs</h4>
-                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis accusamus quo! Illum
+                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis
+                        accusamus quo! Illum
                         reiciendis repellat debitis tempora qui labore rem culpa saepe fuga ullam, temporibus corporis
                         possimus, cumque voluptatibus ad.
                     </p>
@@ -66,7 +66,8 @@
                     <p class="js lenguaje">JavaScript</p>
                     <p class="r lenguaje">React</p>
                     <h4 class="nombre">Bill Gates</h4>
-                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis accusamus quo! Illum
+                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis
+                        accusamus quo! Illum
                         reiciendis repellat debitis tempora qui labore rem culpa saepe fuga ullam, temporibus corporis
                         possimus, cumque voluptatibus ad.
                     </p>
@@ -78,13 +79,51 @@
                     <p class="negocios lenguaje">Negocios</p>
                     <p class="startups lenguaje">Startups</p>
                     <h4 class="nombre">Ada Lovelace</h4>
-                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis accusamus quo! Illum
+                    <p class="parrafosoradores">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint officiis
+                        accusamus quo! Illum
                         reiciendis repellat debitis tempora qui labore rem culpa saepe fuga ullam, temporibus corporis
                         possimus, cumque voluptatibus ad.
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section class="bsa container-fluid">
+        <div class=" contenedorrow row">
+            <img src="/img/honolulu.jpg" class="playa float-start" alt="Playa">
+            <div class="textoplaya col">
+                <h4 class="textobsa">Bs As - Octubre</h4>
+                <p class="textobsa">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los
+                    Estados
+                    Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque
+                    el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la
+                    ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la
+                    ciudad (aproximadamente 600 km<sup>2</sup> de superficie</p>
+                <a class="linkplaya" href="/index.html">Conocé mas</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contenedor-formulario">
+            <form class="row">
+                <div class="col-md-3">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label" ></label>
+                    <input type="text" class="form-control textbox-grande" id="inputAddress" placeholder="Sobre qué quieres hablar?">
+                </div>              
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
         </div>
     </section>
 

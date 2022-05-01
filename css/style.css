@@ -4,6 +4,28 @@
     box-sizing: 0;
 }
 
+.no-pading{
+    padding: 0;
+}
+
+.texto-logo{
+    margin-right: 10%;
+}
+
+.texto-navbar{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-decoration: none;
+}
+
 .barra{
     background-color: rgb(59, 59, 59);
     height: 5rem;
@@ -19,14 +41,14 @@
 .seccion-link{
     font-size: 16px;
     text-align: right;
-    padding: 27px 35px 35px 0;
+    padding: 0px 0px 0px 0;
     max-height: 100%;
 }
 
 .link{
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 6px;
 }
 
 .link:hover{
@@ -174,4 +196,51 @@
 
 .parrafosoradores{
     line-height: 25px;
+}
+
+.bsa{
+    margin: 50px 0 0 0;
+    padding: 0;
+    background-color: rgb(42, 42, 42);
+}
+
+.playa{
+    width: 47%;
+    margin: 0;
+    padding: 0;
+}
+
+.textoplaya{
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+.textobsa{
+    color: white;
+
+}
+
+.contenedorrow{
+    width: 100%;
+}
+
+.linkplaya{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contenedor-formulario{
+    margin: 100px;
+    align-items: center;
+}
+
+.textbox-grande{
+    height: 100px;
 }
