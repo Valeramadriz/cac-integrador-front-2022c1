@@ -1,4 +1,4 @@
-const porcentaje = {
+const Precio = {
     "1": 0.2,
     "2": 0.5,
     "3": 0.85
@@ -6,8 +6,8 @@ const porcentaje = {
 
 function Resumen() {
     const form = document.getElementById("tickets");
-    const cantidad = form.elements["cant"];
-    const categoria = form.elements["cat"];
+    const cantidad = form.elements["cantidad"];
+    const categoria = form.elements["categoria"];
     const sCat = categoria.options[categoria.selectedIndex];
     let total = form.elements["total"];
     total.value = "Total a pagar: $" + (cantidad.value * 200 * Precio[sCat.value]);

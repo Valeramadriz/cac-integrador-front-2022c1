@@ -76,40 +76,29 @@
                         placeholder="Correo">
                 </div>
                 <div class="col-md-6">
-                    <label class="form-label"></label>
-                    <input type="text" class="form-control" placeholder="Cantidad" id="inputn">
+                    <label class="margen_texto_foro form-label">Cantidad</label>
+                    <input type="text" class="form-control" placeholder="Cantidad" id="cantidad">
                 </div>
                 <div class="col-md-6">
-                    <label for="form">Categoría</label>
-                        <select class="form-select" aria-label="Default select example" id="cat">
+                    <label class="margen_texto_foro" for="form">Categoría</label>
+                        <select class="form-select" aria-label="Default select example" id="categoria">
                             <option value="1">Estudiante</option>
                             <option value="2">Trainee</option>
                             <option value="3">Junior</option>
                         </select>
                 </div>
                 <div class="cajon_pago container-fluid">
-                    <p class="texto_cajon_pago">Total a Pagar: $</p>
+                    <input type="text" class="caja_total_pagar fw-bold text-secondary" readonly value="Total a pagar: $" id="total">
                 </div>
                 <div class="col-6 seccion_botones">
-                    <button type="submit" class="boton">Borrar</button>
+                    <button type="button" class="boton" onclick="resetForm()">Borrar</button>
                 </div>
                 <div class="col-6 seccion_botones">
-                    <button type="submit" class="boton">Resumen</button>
+                    <button type="button" class="boton" onclick="Resumen()" >Resumen</button>
                 </div>
             </form>
         </div>
     </section>
-
-
-
-
-    
-
-
-
-
-
-
 
 
     <footer>

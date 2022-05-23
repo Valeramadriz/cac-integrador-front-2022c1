@@ -393,3 +393,14 @@
     color: rgb(50, 111, 190);
     
 }
+
+.margen_texto_foro{
+    margin: 8px 0;
+    padding-top: 10px;
+}
+
+.caja_total_pagar{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
