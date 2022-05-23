@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+.absolute{
+    position: absolute;
+}
+
 .texto-logo{
     margin-right: 10%;
 }
@@ -25,9 +29,9 @@
     background-color: rgb(59, 59, 59);
     color: white;
     text-decoration: none;
-    position: absolute;
     z-index: 2;
     padding: 0;
+    margin-top: 0;
 }
 
 .barra{
@@ -85,7 +89,7 @@
     right: 10%;
     max-width: 50%;
     text-align: right;
-    font-size: 42px;
+    font-size: 2.5em;
     color: white;
 }
 
@@ -96,7 +100,7 @@
     right: 10%;
     width: 60%;
     text-align: right;
-    font-size: 22px;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -293,11 +297,14 @@
     color: white;
 }
 
+.footer{
+}
+
 .contenedor-footer{
     background-color: rgb(34, 74, 98);
     margin: auto;
     text-align: center;
-    padding: 30px;
+    padding: 30px 10px;
     width: 100%;
 }
 
@@ -310,4 +317,79 @@
 
 .link-footer:hover{
     color: grey;
+}
+
+.descuentos{
+    max-width: 100%;
+    margin: 0%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_descuento{
+    padding: 20px 12px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 5px;
+    width: 250px;
+}
+
+.borde_azul{
+    border: 1.8px solid rgb(26, 83, 153);
+}
+
+.borde_verde{
+    border: 1.8px solid rgb(22, 139, 22);
+}
+
+.borde_amarillo{
+    border: 1.8px solid rgb(187, 172, 8);
+}
+
+.titulo_descuento{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.numero_porcentaje{
+    font-weight: bold;
+}
+
+.texto_medio_compra{
+    text-align: center;
+}
+
+.formulario_compra{
+    max width: 60%;
+}
+
+.venta{
+    font-weight: 550;
+}
+
+.valor_compra{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.seccion_botones{
+    display: inline-block;
+}
+
+.cajon_pago{
+    width: 97%;
+    padding: 18px 10px;
+    margin: 20px 20px 20px 10px;
+    background-size: auto;
+    background-color: rgb(183, 218, 254);
+    border-radius: 5px;
+}
+
+.texto_cajon_pago{
+    margin: 0;
+    padding: 0%;
+    color: rgb(50, 111, 190);
+    
 }
